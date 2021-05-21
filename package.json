@@ -1,5 +1,5 @@
 {
-  "homepage": "https://decentrapass.github.io/Decentrapass-v1-Interface/",
+  "homepage": "https://decentrapass.github.io/Decentrapass-org/",
   "name": "decentrapass",
   "version": "0.1.0",
   "private": true,
@@ -14,11 +14,9 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.2.0",
-    "react-redux": "^7.2.3",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
-    "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
     "rewire": "^5.0.0",
     "web-vitals": "^1.1.1",
@@ -30,8 +28,6 @@
     "test": "craco test",
     "predeploy": "craco build",
     "deploy": "gh-pages -d build",
-    "build:extension": "node ./scripts/build-non-split.js && npm run build:clean",
-    "build:clean": "cd build && mv static/js/*.js main.js && mv static/css/*.css main.css && rm -r static",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
