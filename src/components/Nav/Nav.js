@@ -82,9 +82,14 @@ class Nav extends Component {
         </Link>
         {/* LARGE SCREENS */}
         <div className="items-center justify-center hidden lg:flex">
-          <Link to="/docs" className="mx-5 hover:underline">
+          <a
+            href="https://decentrapass.github.io/Decentrapass-v1-docs/"
+            className="mx-5 hover:underline"
+            target="_blank"
+            rel="noreferrer"
+          >
             Documentation
-          </Link>
+          </a>
           <a
             className="mx-5 hover:underline"
             href="https://github.com/Decentrapass"
@@ -102,12 +107,12 @@ class Nav extends Component {
           >
             {this.state.icon}
           </button>
-          <Link
+          <a
             className="mx-5 bg-green-300 dark:bg-green-700 hover:bg-green-400 dark:hover:bg-green-600 py-2 px-3 rounded-full"
-            to="/app/login"
+            href="https://decentrapass.github.io/Decentrapass-v1-Interface/#/"
           >
             Launch Decentrapass
-          </Link>
+          </a>
         </div>
 
         {/* MOBILE */}
@@ -144,9 +149,14 @@ class Nav extends Component {
             }
           >
             <div className="pb-5 px-12 flex flex-col">
-              <Link to="/docs" className="my-3">
+              <a
+                href="https://decentrapass.github.io/Decentrapass-v1-docs/"
+                target="_blank"
+                rel="noreferrer"
+                className="my-3"
+              >
                 Documentation
-              </Link>
+              </a>
               <a
                 className="my-3"
                 href="https://github.com/Decentrapass"
@@ -158,9 +168,12 @@ class Nav extends Component {
               <Link to="/token" className="my-3">
                 Governance
               </Link>
-              <Link className="my-3 text-green-500 font-black" to="/app/login">
+              <a
+                className="my-3 text-green-500 font-black"
+                href="https://decentrapass.github.io/Decentrapass-v1-Interface/#/"
+              >
                 Launch Decentrapass
-              </Link>
+              </a>
             </div>
           </div>
         </div>
