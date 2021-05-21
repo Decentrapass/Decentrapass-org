@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// In-page elements
+.form-button {
+  position: absolute;
+  z-index: 100;
+  border: 0 none;
+  background: url("chrome-extension://nigcdjchfnhiadnkmdfijjhajaljndpc/./img/transparent-logo.png")
+    no-repeat;
+  background-size: 100% 100%;
+}
+
+$primary: rgb(0, 162, 255);
+$primary-light: rgb(219, 238, 255);
+$primary-dark: rgb(138, 0, 180);
+$main-gray: rgb(189, 189, 189);
+$main-blue: rgb(0, 68, 255);
+$text-gray: rgb(34, 34, 34);
+$light-gray: rgba(231, 231, 231, 1);
+$error: rgb(255, 59, 59);
+
+// HELPFUL CLASSES
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+#root {
+  .no-pass-hidden {
+    -webkit-text-security: disc;
+  }
+
+  .no-pass-buttons {
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    height: 15%;
+
+    input[type="submit"] {
+      padding: 7px 14px;
+      border-radius: 5px;
+      font-size: 16px;
+      border: 1px solid $main-gray;
+      cursor: pointer;
+      margin: 2%;
+    }
+
+    .normal {
+      background: white;
+      margin-left: 0;
+    }
+
+    .normal:hover {
+      background-color: $light-gray;
+    }
+
+    .cancel {
+      background-color: rgb(255, 102, 102);
+      border-color: rgb(255, 102, 102);
+      color: white;
+      margin-right: 0;
+    }
+
+    .cancel:hover {
+      background-color: rgb(255, 59, 59);
+      border-color: rgb(255, 59, 59);
+      color: white;
+    }
+
+    .add {
+      background-color: rgb(86, 103, 255);
+      border-color: rgb(86, 103, 255);
+      color: white;
+      margin-right: 0;
+    }
+
+    .add:hover {
+      background-color: rgb(59, 79, 255);
+      border-color: rgb(59, 79, 255);
+      color: white;
+    }
+  }
+
+  .connected-account {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    text-align: left;
+    color: white;
+    font-size: 17px;
+    background-color: rgb(49, 49, 49);
+    padding: 7px 14px;
+    margin: 5px;
+    border-radius: 5px;
+    font-family: monospace;
+    z-index: 100;
+  }
+
+  .connect-with-metamask {
+    width: 30vw;
+    height: 30vh;
+    background-color: rgb(34, 34, 34);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    p {
+      color: white;
+      font-size: 18px;
+      margin-bottom: 1rem;
+    }
+
+    button {
+      background-color: rgb(44, 47, 54);
+      outline: none;
+      border: 1px solid rgb(64, 68, 79);
+      border-radius: 12px;
+      padding: 1rem;
+      width: 100%;
+      text-align: left;
+      color: white;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      border-color: $main-blue;
+    }
+  }
+
+  .data-field:hover .tools {
+    display: flex;
+  }
+
+  .passwordField {
+    -webkit-text-security: disc;
+  }
+
+  .passwordField:focus {
+    -webkit-text-security: none;
+  }
+
+  .spinner {
+    border: 8px solid white;
+    border-radius: 100%;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    width: 50px;
+    height: 50px;
+    animation: spinner-turn 1.2s linear infinite;
+  }
+
+  @keyframes spinner-turn {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .web-menu {
+    transition-property: max-height;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+  }
+
+  .z-100 {
+    z-index: 100;
+  }
+}
