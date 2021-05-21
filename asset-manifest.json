@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Decentrapass-org/static/css/main.74488f94.chunk.css",
-    "main.js": "/Decentrapass-org/static/js/main.dcb33de0.chunk.js",
-    "main.js.map": "/Decentrapass-org/static/js/main.dcb33de0.chunk.js.map",
+    "main.css": "/Decentrapass-org/static/css/main.7ee2e8db.chunk.css",
+    "main.js": "/Decentrapass-org/static/js/main.580cc439.chunk.js",
+    "main.js.map": "/Decentrapass-org/static/js/main.580cc439.chunk.js.map",
     "runtime-main.js": "/Decentrapass-org/static/js/runtime-main.9af190d4.js",
     "runtime-main.js.map": "/Decentrapass-org/static/js/runtime-main.9af190d4.js.map",
-    "static/js/2.0c7aa784.chunk.js": "/Decentrapass-org/static/js/2.0c7aa784.chunk.js",
-    "static/js/2.0c7aa784.chunk.js.map": "/Decentrapass-org/static/js/2.0c7aa784.chunk.js.map",
+    "static/js/2.ac727bb4.chunk.js": "/Decentrapass-org/static/js/2.ac727bb4.chunk.js",
+    "static/js/2.ac727bb4.chunk.js.map": "/Decentrapass-org/static/js/2.ac727bb4.chunk.js.map",
     "index.html": "/Decentrapass-org/index.html",
-    "static/css/main.74488f94.chunk.css.map": "/Decentrapass-org/static/css/main.74488f94.chunk.css.map",
-    "static/js/2.0c7aa784.chunk.js.LICENSE.txt": "/Decentrapass-org/static/js/2.0c7aa784.chunk.js.LICENSE.txt",
+    "static/css/main.7ee2e8db.chunk.css.map": "/Decentrapass-org/static/css/main.7ee2e8db.chunk.css.map",
+    "static/js/2.ac727bb4.chunk.js.LICENSE.txt": "/Decentrapass-org/static/js/2.ac727bb4.chunk.js.LICENSE.txt",
     "static/media/Decentralized.ce8ce416.png": "/Decentrapass-org/static/media/Decentralized.ce8ce416.png",
     "static/media/Eth.4515d146.png": "/Decentrapass-org/static/media/Eth.4515d146.png",
     "static/media/Time.36d9f35d.png": "/Decentrapass-org/static/media/Time.36d9f35d.png",
@@ -17,8 +17,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9af190d4.js",
-    "static/js/2.0c7aa784.chunk.js",
-    "static/css/main.74488f94.chunk.css",
-    "static/js/main.dcb33de0.chunk.js"
+    "static/js/2.ac727bb4.chunk.js",
+    "static/css/main.7ee2e8db.chunk.css",
+    "static/js/main.580cc439.chunk.js"
   ]
 }
