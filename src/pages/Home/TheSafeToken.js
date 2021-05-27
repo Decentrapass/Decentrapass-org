@@ -44,7 +44,7 @@ export default class TheSafeToken extends Component {
             </div>
             <div className="flex-col items-center justify-start text-center w-full lg:w-1/3">
               <img src={Time} className="w-1/2 lg:w-2/3 block m-auto mb-8" />
-              <h4 className="text-2xl font-bold mb-2">Existence</h4>
+              <h4 className="text-2xl font-bold mb-2">Continuity</h4>
               <p className="leading-normal">
                 By keeping Decentrapass an open-source project where users
                 decide on the future of the project, Decentrapass can persist in

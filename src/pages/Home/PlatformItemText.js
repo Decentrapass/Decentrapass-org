@@ -12,7 +12,7 @@ export const ITEM = [
     content: "Autofill passwords or access data directly in your browser.",
   },
   {
-    title: "App",
+    title: "Web App",
     icon: <IoIosGitNetwork />,
     content: "Access and modify your private data in the blockchain.",
   },

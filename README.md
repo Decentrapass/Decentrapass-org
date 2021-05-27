@@ -2,9 +2,9 @@
 
 An open source interface for the Decentrapass project - a project for decentralized password storing and managing.
 
-- Website: [decentrapass.com](decentrapass.com)
-- Application: [decentrapass.com/app](decentrapass.com/app)
-- Docs: [decentrapass.com/docs](decentrapass.com/docs)
+- Website: [decentrapass.org](http://decentrapass.org)
+- Application: [decentrapass.com/app](http://app.decentrapass.org)
+- Docs: [decentrapass.com/docs](http://docs.decentrapass.org)
 - Twitter: [@decentrapass](https://twitter.com/decentrapass)
 - Email: decentrapass@protonmail.com
 
@@ -13,12 +13,9 @@ An open source interface for the Decentrapass project - a project for decentrali
 Install dependencies
 
 ```
-npm install
-```
-
-Run
-
-```
+git clone https://github.com/Decentrapass/Decentrapass-org.git
+cd Decentrapass-org/
+npm i
 npm run start
 ```
 
