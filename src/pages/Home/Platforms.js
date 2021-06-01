@@ -13,7 +13,7 @@ export default class Platforms extends Component {
           <div className="flex flex-col lg:flex-row w-full justify-center items-center">
             {/* Extension card */}
             <a
-              href=""
+              href="https://github.com/Decentrapass/Decentrapass-extension"
               className="flex flex-col items-center bg-white dark:bg-gray-700 shadow-xl dark:shadow-xl justify-start dark:text-gray-200 rounded-xl w-3/4 lg:w-1/4 py-16 transform hover:scale-105 transition-transform mb-16 lg:mb-0"
             >
               <span className="text-green-500 flex w-full justify-center text-7xl">
@@ -29,7 +29,7 @@ export default class Platforms extends Component {
 
             {/* App card */}
             <a
-              href="https://decentrapass.github.io/Decentrapass-v1-Interface/"
+              href="https://app.decentrapass.org"
               className="lg:mx-10 flex flex-col items-center bg-white dark:bg-gray-700 shadow-xl dark:shadow-xl justify-start dark:text-gray-200 rounded-xl w-3/4 lg:w-1/4 py-16 transform hover:scale-105 transition-transform mb-16 lg:mb-0"
             >
               <span className="text-green-500 flex w-full justify-center text-7xl">

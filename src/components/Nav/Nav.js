@@ -83,7 +83,7 @@ class Nav extends Component {
         {/* LARGE SCREENS */}
         <div className="items-center justify-center hidden lg:flex">
           <a
-            href="https://decentrapass.github.io/Decentrapass-v1-docs/"
+            href="https://docs.decentrapass.org"
             className="mx-5 hover:underline"
             target="_blank"
             rel="noreferrer"
@@ -109,7 +109,7 @@ class Nav extends Component {
           </button>
           <a
             className="mx-5 bg-green-300 dark:bg-green-700 hover:bg-green-400 dark:hover:bg-green-600 py-2 px-3 rounded-full"
-            href="https://decentrapass.github.io/Decentrapass-v1-Interface/#/"
+            href="https://app.decentrapass.org"
           >
             Launch Decentrapass
           </a>
@@ -150,7 +150,7 @@ class Nav extends Component {
           >
             <div className="pb-5 px-12 flex flex-col">
               <a
-                href="https://decentrapass.github.io/Decentrapass-v1-docs/"
+                href="https://docs.decentrapass.org"
                 target="_blank"
                 rel="noreferrer"
                 className="my-3"
@@ -170,7 +170,7 @@ class Nav extends Component {
               </Link>
               <a
                 className="my-3 text-green-500 font-black"
-                href="https://decentrapass.github.io/Decentrapass-v1-Interface/#/"
+                href="https://app.decentrapass.org"
               >
                 Launch Decentrapass
               </a>
