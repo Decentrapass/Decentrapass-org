@@ -43,11 +43,8 @@ export default class Platforms extends Component {
               </p>
             </a>
 
-            {/* Mpbile app card */}
-            <a
-              href=""
-              className="flex flex-col items-center bg-white dark:bg-gray-700 shadow-xl dark:shadow-xl justify-start dark:text-gray-200 rounded-xl w-3/4 lg:w-1/4 py-16 transform hover:scale-105 transition-transform"
-            >
+            {/* Mpbile app card - Disabled for now */}
+            <div className="flex flex-col items-center bg-white dark:bg-gray-700 shadow-xl dark:shadow-xl justify-start dark:text-gray-200 rounded-xl w-3/4 lg:w-1/4 py-16 transform hover:scale-105 transition-transform cursor-not-allowed relative">
               <span className="text-green-500 flex w-full justify-center text-7xl">
                 {ITEM[2].icon}
               </span>
@@ -57,7 +54,10 @@ export default class Platforms extends Component {
               <p className="leading-relaxed text-center w-5/6">
                 {ITEM[2].content}
               </p>
-            </a>
+              <span className="absolute bottom-3 text-green-600">
+                In progress...
+              </span>
+            </div>
           </div>
         </div>
       </div>

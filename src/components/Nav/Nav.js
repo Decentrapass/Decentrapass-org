@@ -149,12 +149,7 @@ class Nav extends Component {
             }
           >
             <div className="pb-5 px-12 flex flex-col">
-              <a
-                href="https://docs.decentrapass.org"
-                target="_blank"
-                rel="noreferrer"
-                className="my-3"
-              >
+              <a href="https://docs.decentrapass.org" className="my-3">
                 Documentation
               </a>
               <a
